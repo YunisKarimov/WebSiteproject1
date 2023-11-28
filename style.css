@@ -9,6 +9,85 @@
   transition: 0.2s ease;
 }
 
-.logo img {
-  height: 7rem;
+section {
+  padding: 35px 7%;
 }
+
+.btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 300px;
+  font-size: 18px;
+  color: white;
+  background: rgb(216, 107, 39);
+
+}
+/* header start */
+.header .logo img {
+  height: 100px;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  margin: 20px 7%;
+  border-radius: 300px;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .navbar a {
+  margin: 0 10px;
+  font-size: 16px;
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+.header .navbar .active,
+.header .navbar a:hover {
+  border-color: blueviolet;
+  padding-bottom: 5px;
+}
+
+.header .buttons button {
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+/* header end */
+
+/* Home start */
+.home {
+  min-height: 100vh;
+  background: url(./img/home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -145px;
+  display: flex;
+  align-items: center;
+}
+.home .content {
+  max-width: 600px;
+}
+
+.home .content h3 {
+  font-size: 60px;
+  color: white;
+}
+
+.home .content p {
+  font-size: 20px;
+  font-weight: 300px;
+  line-height: 1.8;
+  padding: 10px 0;
+  color: white;
+}
+/* Home end */
