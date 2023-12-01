@@ -20,8 +20,23 @@ section {
   border-radius: 300px;
   font-size: 18px;
   color: white;
-  background: rgb(216, 107, 39);
+  background: black;
+}
+.btn:hover {
+  opacity: 0.6;
+}
 
+.heading {
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+.heading span {
+  color: black;
+  text-transform: uppercase;
 }
 /* header start */
 .header .logo img {
@@ -91,3 +106,48 @@ section {
   color: white;
 }
 /* Home end */
+
+/* menu start */
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+}
+.menu .box-container .box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+  min-height: 440px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu {
+  background-color: lightcoral;
+}
+
+.menu .box-container .box img {
+  width: 100%;
+  object-fit: cover;
+}
+.menu .box-container .box .menu-category {
+  font-size: 10px;
+}
+
+.menu .box-container .box h3 {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.menu .box-container .box .price {
+  font-size: 18px;
+  padding: 5px 0px;
+}
+
+.menu .box-container .box .price span {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+/* menu end*/
