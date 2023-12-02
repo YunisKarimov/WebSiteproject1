@@ -398,3 +398,61 @@ a {
 }
 
 /* contact end  */
+
+/* blog start  */
+
+.blogs {
+  background-color: lightcoral;
+}
+
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+}
+
+.blogs .box-container .box {
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.blogs .box-container .box .image {
+  height: 250px;
+  overflow: hidden;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.blogs .box-container .box .image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.blogs .box-container .box:hover .image img {
+  transform: scale(1.3);
+}
+
+.blogs .box-container .box .content {
+  padding: 20px;
+}
+
+.blogs .box-container .box .content .title {
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+.blogs .box-container .box .content span {
+  display: block;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.blogs .box-container .box .content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ccc;
+  padding: 10px 0;
+}
+/* blog end  */
