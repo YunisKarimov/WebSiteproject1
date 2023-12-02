@@ -13,7 +13,7 @@ section {
   padding: 35px 7%;
 }
 
-a{
+a {
   color: black;
 }
 
@@ -160,8 +160,7 @@ a{
 
 /* products start*/
 
-
-.products{
+.products {
   background-color: lightcoral;
 }
 .products .box-container {
@@ -263,10 +262,41 @@ a{
 
 .products .box-container .box-bottom .product-btn a i {
   font-size: 16px;
-  color:lightcoral;
+  color: lightcoral;
 }
-
-
 /* products end*/
 
+/* about start */
 
+.about {
+  background-color: lightcoral;
+}
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.about .row .image {
+  flex: 1 1 450px;
+}
+.about .row img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 450px;
+}
+
+.about .row .content h3 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.about .row .content p {
+  font-size: 18px;
+  color: #ccc;
+  padding: 10px 0;
+  line-height: 1.8;
+}
+
+/* about end */
