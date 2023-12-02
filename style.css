@@ -108,6 +108,11 @@ section {
 /* Home end */
 
 /* menu start */
+
+.menu {
+  background-color: lightcoral;
+}
+
 .menu .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -122,9 +127,6 @@ section {
   align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
-}
-.menu {
-  background-color: lightcoral;
 }
 
 .menu .box-container .box img {
@@ -151,3 +153,35 @@ section {
 }
 
 /* menu end*/
+
+/* products start*/
+
+
+
+
+.products{
+  background-color: lightcoral;
+}
+.products .box-container{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); ;
+  gap: 15px;
+
+}
+
+.products .box-container .box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+  min-height: 440px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.products .box-container .box img {
+  width: 100%;
+  object-fit: cover;
+}
+/* products end*/
