@@ -267,7 +267,6 @@ a {
 /* products end*/
 
 /* about start */
-
 .about {
   background-color: lightcoral;
 }
@@ -300,3 +299,43 @@ a {
 }
 
 /* about end */
+
+/* review start */
+
+.review {
+  background-color: lightcoral;
+}
+.review .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+}
+.review .box-container .box {
+  border: var(--border);
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.review .box-container .box p {
+  font-size: 15px;
+  line-height: 1.8;
+  padding: 20px 0;
+}
+.review .box-container .box .user {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.review .box-container .box h3 {
+  padding: 10px 0;
+  font-size: 20px;
+  color: black;
+}
+
+.review .box-container .box .stars i {
+  font-size: 15px;
+  color: gold;
+}
+/* review end */
